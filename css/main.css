@@ -1,0 +1,32 @@
+*{
+	font-family: sans-serif;
+	color:;
+}
+
+section{
+	background-color: ;
+	padding: 20px;
+}
+
+.categorias{
+	display: inline;
+}
+
+h3{
+	padding-left: 20px;
+	font-size: 24px;
+}
+
+.pelicula{
+	height: 250px;
+	width: 200px;
+	margin:5px;
+}
+
+.video{
+}
+
+.actor{
+	height:;
+	width:;
+}
