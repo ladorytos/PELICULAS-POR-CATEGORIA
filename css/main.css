@@ -1,28 +1,55 @@
 *{
 	font-family: sans-serif;
-	color:;
 }
 
-section{
-	background-color: ;
+/*header*/
+header, footer{
+	background-color: #7FFFFF;
+    padding: 30px;
+    color: white;
+}
+header h1{
+	font-size: 60px;
+}
+
+/*section*/
+#categorias{
+	background-color: #FFFFAA;
 	padding: 20px;
 }
 
 
-
 h3{
-	padding-left: 20px;
 	font-size: 24px;
+	color: gray;
 }
+select{
+	font-size: 20px;
+    padding: 10px 50px;
+    margin-left: 260px;	
+}
+select:hover{
+	background-color: #FFFF55 ;	
+}
+option{
+	margin: 10px;
+	padding: 20px;
+}
+
 .movie1{
+	margin:5px;
+	background-color: white;
 	display: inline-block;
 }
+
 .pelicula{
 	height: 250px;
 	width: 200px;
 	margin:5px;
 }
 
+
+/* pelicula.html */
 .video{
 	padding:10px;
 }
@@ -37,13 +64,16 @@ h3{
 
 /*footer*/
 .navfoot ul {
-  display: inline-block; }
+  display: inline-block; 
+}
 .navfoot li {
   display: inline-block;
   margin-right: 5px;
-  line-height: 1; }
+  line-height: 1;
+}
 .navfoot .fa {
   color: blue;
   padding: 10px;
   border: 1px solid blue;
-  border-radius: 100%; }
+  border-radius: 100%;
+}
