@@ -12,12 +12,14 @@ header h1{
 	font-size: 60px;
 }
 
-/*section*/
-#categorias{
+header:hover h1{
+	color:#0055FF;
+}
+/*section principal*/
+#categorias, .ppal{
 	background-color: #FFFFAA;
 	padding: 20px;
 }
-
 
 h3{
 	font-size: 24px;
@@ -50,16 +52,34 @@ option{
 
 
 /* pelicula.html */
-.video{
-	padding:10px;
+.text-left{
+	margin-bottom: 30px;
+}
+.parrafo{
+	padding: 50px;
+	margin-top: 50px;
+	font-size: 20px;
+	 font-style:italic;
+}
+.img-circle {
+  height: 160px;
+  width: 160px;
+  border: 5px solid orange;
+  padding: 5px;
+  margin: 15px 0;
+}
+.img-circle:hover {
+  height: 180px;
+  width: 180px;	
+  border: 5px solid blue;
+  padding: 5px;
+  margin: 15px 0;
+}
+.actor{
+	margin-left: 30px;
+	font-weight: bold;
 }
 
-.actores{
-	height: 50%;
-	width: 50%;
-	margin-left: 70px;
-	margin-top: 20px;
-}
 
 
 /*footer*/
@@ -68,12 +88,49 @@ option{
 }
 .navfoot li {
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 10px;
   line-height: 1;
 }
 .navfoot .fa {
   color: blue;
   padding: 10px;
+  font-size: 20px;
   border: 1px solid blue;
   border-radius: 100%;
+}
+footer .fa:hover{
+	font-size: 200%;
+}
+
+.end{
+	margin-top:20px;
+}
+
+
+/* Responsive }*/
+
+@media screen and (max-width : 667px){
+ select{
+	 margin-left: 40px;	
+	}
+}
+.embed-responsive{
+	width: 120%;
+}
+.parrafo{
+	font-size: 16px;
+	font-style:italic;
+	margin-top: -30px;
+}
+.img-circle, .img-circle:hover{
+  height: 120px;
+  width: 120px;
+}
+.actor{
+	margin-left: 30px;
+	font-weight: bold;
+}
+.esp{
+	margin-top: -30px;
+	margin-left: 60px;
 }
