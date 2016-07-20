@@ -18,191 +18,162 @@
 				</div>
 			</div>		
 		</header>
-		<section>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="categorias">
-						<h3>Escoge una Categoría</h3>
- 						<div class="dropdown">
-						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Todas las categorias
-					    <span class="categ"></span>
-					  </button>
-					  <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
-					    <li><a href="#accion">Acción</a></li>
-					    <li><a href="#ficcion">Ficción</a></li>
-					    <li><a href="#infantil">Infantil</a></li>
-					    <li><a href="#romantica">Romántica</a></li>
-					    <li><a href="#terror">Terror</a></li>
-					  </ul>
-					</div>
-				</div>	
-				<div class="row " id="accion">
-					<h3>Acción</h3>
-					<div class="col-md-2">
-						<a href="pelicula1.html">
-							<img src="img/accion/acc (1).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula2.html">
-							<img src="img/accion/acc (2).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula3.html">
-							<img src="img/accion/acc (3).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula4.html">
-							<img src="img/accion/acc (4).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula5.html">
-							<img src="img/accion/acc (5).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula6.html">
-							<img src="img/accion/acc (6).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-				</div>	
-				<div class="row" id="ficcion">
-					<h3>Ficción</h3>
-					<div class="col-md-2">
-						<a href="pelicula7.html">
-							<img src="img/ficcion/ficc (1).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula8.html">
-							<img src="img/ficcion/ficc (2).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula9.html">
-							<img src="img/ficcion/ficc (3).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula10.html">
-							<img src="img/ficcion/ficc (4).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula11.html">
-							<img src="img/ficcion/ficc (5).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2"></div>
+		<section id="categorias">
+			<div class="container">	
+				<div class="row">
+					<div class="col-md-12">
+						<div class="categorias">
+							<h3>Escoge una Categoría</h3>
+ 							<select class="escogeCategoria" id="seleccionar">
+							  <option value="todas" onclick="todas()">Todas</option>
+							  <option value="accion" onclick="accion()">Acción</option>
+							  <option value="ficcion" onclick="ficcion()">Ficción</option>
+							  <option value="infantil" onclick="infantil()">Infantil</option>
+							  <option value="terror" onclick="terror()">Terror</option>
+							</select>
+						</div>
+						<div class="row">
+							<ul>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/accion/acc (1).jpg" alt="movie1" class="pelicula accion">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/accion/acc (2).jpg" alt="movie1" class="pelicula accion">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/accion/acc (3).jpg" alt="movie1" class="pelicula accion">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/accion/acc (4).jpg" alt="movie1" class="pelicula accion">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/accion/acc (5).jpg" alt="movie1" class="pelicula accion">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/accion/acc (6).jpg" alt="movie1" class="pelicula accion">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/ficcion/ficc (1).jpg" alt="movie1" class="pelicula ficcion">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/ficcion/ficc (2).jpg" alt="movie1" class="pelicula ficcion">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/ficcion/ficc (3).jpg" alt="movie1" class="pelicula ficcion">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/ficcion/ficc (4).jpg" alt="movie1" class="pelicula ficcion">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/ficcion/ficc (5).jpg" alt="movie1" class="pelicula ficcion">
+									</a>
+								</li
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/inf/infa (15).jpg" alt="movie1" class="pelicula infantil">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/inf/infa (14).jpg" alt="movie1" class="pelicula infantil">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/inf/inf (4).jpg" alt="movie1" class="pelicula infantil">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/inf/inf (5).jpg" alt="movie1" class="pelicula infantil">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/inf/inf (6).jpg" alt="movie1" class="pelicula infantil">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/terror/terr (1).jpg" alt="movie1" class="pelicula terror">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/terror/terr (2).jpg" alt="movie1" class="pelicula terror">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/terror/terr (3).jpg" alt="movie1" class="pelicula terror">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/terror/terr (4).jpg" alt="movie1" class="pelicula terror">
+									</a>
+								</li>
+								<li class="movie1">
+									<a href="pelicula.html">
+									<img src="img/terror/terr (5).jpg" alt="movie1" class="pelicula terror">
+									</a>
+								</li>
+							</ul>
+						</div>					
+					</div>	
 				</div>
-				<div class="row" id="infantil">
-					<h3>Infantil</h3>
-					<div class="col-md-2">
-						<a href="pelicula13.html">
-							<img src="img/inf/inf (1).jpg" alt="movie1" class="pelicula">		
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula14.html">
-							<img src="img/inf/inf (2).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula15.html">
-							<img src="img/inf/inf (3).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula16.html">
-							<img src="img/inf/inf (4).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula17.html">
-							<img src="img/inf/inf (5).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula18.html">
-							<img src="img/inf/inf (6).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-				</div>
-				<div class="row" id="romantica">
-					<h3>Romántica</h3>
-					<div class="col-md-2">
-						<a href="pelicula13.html">
-							<img src="img/rom/rom (1).jpg" alt="movie1" class="pelicula">		
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula14.html">
-							<img src="img/rom/rom (2).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula15.html">
-							<img src="img/rom/rom (3).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-6"></div>
-				</div>
-				<div class="row" id="terror">
-					<h3>Terror</h3>
-					<div class="col-md-2">
-						<a href="pelicula7.html">
-							<img src="img/terror/terr (1).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula8.html">
-							<img src="img/terror/terr (2).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula9.html">
-							<img src="img/terror/terr (3).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula10.html">
-							<img src="img/terror/terr (4).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula11.html">
-							<img src="img/terror/terr (5).jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2"></div>
-				</div>	
 			</div>
-		</div>
-	</section>
+		</section>
 	<footer>
-		<div class="col-md-12">
-      <nav class="navfoot">
-        <ul>
-          <li>
-            <div class=""><i class="fa fa-twitter" aria-hidden="true"></i></div>
-          </li>
-          <li>
-            <div class=""><i class="fa fa-facebook" aria-hidden="true"></i></div>
-          </li>
-          <li>
-            <div class=""><i class="fa fa-instagram" aria-hidden="true"></i></div>
-          </li>
-        </ul>
-       </nav>
-      <p>Copyright MailenKutral 2016</p>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navfoot">
+            <ul>
+              <li>
+                <div class=""><i class="fa fa-twitter" aria-hidden="true"></i></div>
+              </li>
+              <li>
+                <div class=""><i class="fa fa-facebook" aria-hidden="true"></i></div>
+              </li>
+              <li>
+                <div class=""><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+              </li>
+              <li>
+                <div class=""><i class="fa fa-instagram" aria-hidden="true"></i></div>
+              </li>
+            </ul>
+          </nav>
+          <p>Copyright Peuma 2016 - Template by <a href="#">Peuma</a></p>
+        </div>
+      </div>
     </div>
-	</footer>
+  </footer>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript"></script>
-	<script type="text/javascript" src="js/main.js"></script>	
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>	
 
 	</body>
 </html>
